@@ -37,4 +37,4 @@ for filename in os.listdir(path):
         client.load_extension(f'cogs.{filename[:-3]}')   
 
 
-client.run("MTAyOTQ5NTk5MzI4MjA4NDg3NA.G6AIif.8dTat6ZQEQDao3c6aQneqlGBf6-SCZjFuZ1rBY")
+client.run("MTAyOTQ5NTk5MzI4MjA4NDg3NA.GmANdu.EBQumINqfRaa0mSNtNhMXtPBdZqyMbdbtnoyJ8")
