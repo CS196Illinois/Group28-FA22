@@ -20,7 +20,7 @@ class Example(commands.Cog):
     @commands.command()
     async def testread(self, ctx):
         path = 'Project/Discord.py Bot/bot_test.csv'
-        with open(path, 'r+') as beta_test_file:
+        with open(path, 'r+', encoding="utf-8-sig") as beta_test_file:
             reader = csv.reader(beta_test_file)
             for row in reader:
                 await ctx.send(f'{row}')
